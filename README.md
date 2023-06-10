@@ -1,29 +1,34 @@
-![Gatsby Logo](https://github.com/zeit/now/blob/master/packages/frameworks/logos/gatsby.svg)
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-# Gatsby Example
+## Getting Started
 
-This directory is a brief example of a [Gatsby](https://www.gatsbyjs.org/) app with [Serverless Functions](https://zeit.co/docs/v2/serverless-functions/introduction) that can be deployed with ZEIT Now and zero configuration.
+First, run the development server:
 
-## Deploy Your Own
-
-Deploy your own Gatsby project, along with Serverless Functions, with ZEIT Now.
-
-[![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/import/project?template=https://github.com/zeit/now/tree/master/examples/gatsby)
-
-_Live Example: https://gatsby.now-examples.now.sh_
-
-### How We Created This Example
-
-To get started with Gatsby on Now, you can use the [Gatsby CLI](https://www.gatsbyjs.org/docs/gatsby-cli/) to initialize the project:
-
-```shell
-$ gatsby new gatsby-site
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
 ```
 
-### Deploying From Your Terminal
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can deploy your new Gatsby project, along with [Serverless Functions](https://zeit.co/docs/v2/serverless-functions/introduction), with a single command from your terminal using [Now CLI](https://zeit.co/download):
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-```shell
-$ now
-```
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
